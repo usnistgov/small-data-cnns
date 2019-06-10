@@ -1,6 +1,12 @@
-# Small Data CNNS
+# Small Data CNNs
 
 Explore mechanisms for overcoming small datasets when training Convolutional Neural Networks with Deep Learning. 
+
+# Data
+
+All data used for this project is available at:
+
+[https://isg.nist.gov/deepzoomweb/data/RPEimplants](https://isg.nist.gov/deepzoomweb/data/RPEimplants)
 
 
 # SemanticSegmentation
