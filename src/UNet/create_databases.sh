@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/HES/test/images --mask_folder=/scratch/small-data-cnns/source_data/HES/test/masks --output_filepath=/scratch/small-data-cnns/source_data/HES --dataset_name=test-hes --annotation_count=inf
+#python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/HES/train/images --mask_folder=/scratch/small-data-cnns/source_data/HES/train/masks --output_filepath=/scratch/small-data-cnns/source_data/HES --dataset_name=train-hes --annotation_count=50
+#python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/HES/train/images --mask_folder=/scratch/small-data-cnns/source_data/HES/train/masks --output_filepath=/scratch/small-data-cnns/source_data/HES --dataset_name=train-hes --annotation_count=100
+#python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/HES/train/images --mask_folder=/scratch/small-data-cnns/source_data/HES/train/masks --output_filepath=/scratch/small-data-cnns/source_data/HES --dataset_name=train-hes --annotation_count=200
+#python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/HES/train/images --mask_folder=/scratch/small-data-cnns/source_data/HES/train/masks --output_filepath=/scratch/small-data-cnns/source_data/HES --dataset_name=train-hes --annotation_count=300
+#python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/HES/train/images --mask_folder=/scratch/small-data-cnns/source_data/HES/train/masks --output_filepath=/scratch/small-data-cnns/source_data/HES --dataset_name=train-hes --annotation_count=400
+#python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/HES/train/images --mask_folder=/scratch/small-data-cnns/source_data/HES/train/masks --output_filepath=/scratch/small-data-cnns/source_data/HES --dataset_name=train-hes --annotation_count=500
+
+
+python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/RPE/test/images --mask_folder=/scratch/small-data-cnns/source_data/RPE/test/masks --output_filepath=/scratch/small-data-cnns/source_data/RPE --dataset_name=test-rpe --annotation_count=inf
+python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/RPE/train/images --mask_folder=/scratch/small-data-cnns/source_data/RPE/train/masks --output_filepath=/scratch/small-data-cnns/source_data/RPE --dataset_name=train-rpe --annotation_count=50
+python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/RPE/train/images --mask_folder=/scratch/small-data-cnns/source_data/RPE/train/masks --output_filepath=/scratch/small-data-cnns/source_data/RPE --dataset_name=train-rpe --annotation_count=100
+python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/RPE/train/images --mask_folder=/scratch/small-data-cnns/source_data/RPE/train/masks --output_filepath=/scratch/small-data-cnns/source_data/RPE --dataset_name=train-rpe --annotation_count=200
+python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/RPE/train/images --mask_folder=/scratch/small-data-cnns/source_data/RPE/train/masks --output_filepath=/scratch/small-data-cnns/source_data/RPE --dataset_name=train-rpe --annotation_count=300
+python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/RPE/train/images --mask_folder=/scratch/small-data-cnns/source_data/RPE/train/masks --output_filepath=/scratch/small-data-cnns/source_data/RPE --dataset_name=train-rpe --annotation_count=400
+python build_lmdb.py --image_folder=/scratch/small-data-cnns/source_data/RPE/train/images --mask_folder=/scratch/small-data-cnns/source_data/RPE/train/masks --output_filepath=/scratch/small-data-cnns/source_data/RPE --dataset_name=train-rpe --annotation_count=500

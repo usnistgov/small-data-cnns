@@ -1,0 +1,76 @@
+# use glob syntax.
+syntax: glob
+
+
+# Ignore folders
+bin
+out
+target
+.metadata
+.settings
+src/gan/pre-trained-gan-coefficients
+data
+models
+src/gan/rpe-weights
+src/gan/hes-weights
+src/gan/concrete-weights
+.idea
+
+# User-specific IntlliJ workspace:
+*/.idea
+
+# LaTex generated files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+#*.pdf
+*.synctex.gz
+*.toc
+
+# Ignore Image Extensions
+*.tif
+*.tiff
+*.gif
+
+# Ignore Files
+*.lnk
+Thumbs.db
+.DS_Store
+*.db
+*.swp
+*.Rhistory # from RStudio
+
+
+# Ignore Extensions
+*.pyc
+*.jar
+*.exe
+*.csv
+*.zip
+*.7z
+*.tar.gz
+*.tar
+*.xlsx
+*.xls
+*.ppt
+*.pptx
+*.csv
+*.index
+*.class
+*.doc
+*.docx
+*.classpath
+
+# Multimedia Extensions
+*.mp3
+*.mpeg
+*.avi
+*.mov
+*.wma
+*.wmv
+*.mp4
+
+
+
